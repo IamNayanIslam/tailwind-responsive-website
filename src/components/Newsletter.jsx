@@ -17,6 +17,7 @@ const Newsletter = () => {
                         Subscribe
                     </button>
                 </div>
+                <p className="py-2">We care about the protection of your data. Read our <span className="text-[#00df9a] cursor-pointer hover:underline">Privacy Policy</span>.</p>
             </div>
         </div>
     </div>

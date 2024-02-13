@@ -12,12 +12,12 @@ const Header = () => {
     <>
         <nav className="max-w-screen-lg mx-auto px-4 text-white flex justify-between items-center  h-24">
             <h1 className="w-full text-3xl font-bold text-[#00df9a] cursor-pointer">NAYAN.</h1>
-            <ul className="md:flex space-x-2 hidden uppercase font-bold">
-                <li className="md:px-2 lg:px-4 cursor-pointer py-2">Home</li>
-                <li className="md:px-2 lg:px-4 cursor-pointer py-2">Company</li>
-                <li className="md:px-2 lg:px-4 cursor-pointer py-2">Resources</li>
-                <li className="md:px-2 lg:px-4 cursor-pointer py-2">Contact</li>
-                <li className="md:px-2 lg:px-4 cursor-pointer py-2">About</li>
+            <ul className="md:flex md:space-x-8 hidden uppercase font-bold">
+                <li className="cursor-pointer py-2 hover:text-[#00df9a] ease-in-out duration-300 border-b-2 border-b-transparent  hover:border-b-2 hover:border-b-[#00df9a]">Home</li>
+                <li className="cursor-pointer py-2 hover:text-[#00df9a] ease-in-out duration-300 border-b-2 border-b-transparent  hover:border-b-2 hover:border-b-[#00df9a]">Company</li>
+                <li className="cursor-pointer py-2 hover:text-[#00df9a] ease-in-out duration-300 border-b-2 border-b-transparent  hover:border-b-2 hover:border-b-[#00df9a]">Resources</li>
+                <li className="cursor-pointer py-2 hover:text-[#00df9a] ease-in-out duration-300 border-b-2 border-b-transparent  hover:border-b-2 hover:border-b-[#00df9a]">Contact</li>
+                <li className="cursor-pointer py-2 hover:text-[#00df9a] ease-in-out duration-300 border-b-2 border-b-transparent  hover:border-b-2 hover:border-b-[#00df9a]">About</li>
             </ul>
             <div className="open-close block md:hidden">
               {

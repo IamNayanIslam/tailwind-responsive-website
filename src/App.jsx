@@ -1,5 +1,6 @@
 import Analytics from "./components/Analytics"
 import Hero from "./components/Hero"
+import Newsletter from "./components/Newsletter"
 import Header from "./components/header/Header"
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <Header/>
       <Hero/>
       <Analytics/>
+      <Newsletter/>
     </div>
   )
 }

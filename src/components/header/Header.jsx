@@ -13,11 +13,11 @@ const Header = () => {
         <nav className="max-w-screen-lg mx-auto px-4 text-white flex justify-between items-center  h-24">
             <h1 className="w-full text-3xl font-bold text-[#00df9a]">NAYAN.</h1>
             <ul className="md:flex space-x-2 hidden uppercase">
-                <li className="px-6 py-2">Home</li>
-                <li className="px-6 py-2">Company</li>
-                <li className="px-6 py-2">Resources</li>
-                <li className="px-6 py-2">Contact</li>
-                <li className="px-6 py-2">About</li>
+                <li className="md:px-2 lg:px-4 cursor-pointer py-2">Home</li>
+                <li className="md:px-2 lg:px-4 cursor-pointer py-2">Company</li>
+                <li className="md:px-2 lg:px-4 cursor-pointer py-2">Resources</li>
+                <li className="md:px-2 lg:px-4 cursor-pointer py-2">Contact</li>
+                <li className="md:px-2 lg:px-4 cursor-pointer py-2">About</li>
             </ul>
             <div className="open-close block md:hidden">
               {

@@ -5,7 +5,7 @@ const Analytics = () => {
     <div className='w-full bg-white py-16 px-4'>
         <div className="md:max-w-screen-lg mx-auto grid md:grid-cols-2 px-6">
             <div className="flex justify-center items-center mb-6 md:mb-0">
-            <img src="./analytics.png" alt="" className="w-[200px] md:w-[300px]"/>
+            <img src="./laptop.jpg" alt="" className="w-[200px] md:w-[300px]"/>
             </div>
             <div className="flex flex-col justify-center items-center text-center">
                 <p className="text-[#00df9a] font-bold md:text-2xl text-xl">DATA ANALYTICS DASHBOARD</p>

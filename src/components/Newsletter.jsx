@@ -2,8 +2,8 @@
 
 const Newsletter = () => {
   return (
-    <div className="w-full py-16">
-        <div className="md:max-w-screen-lg mx-auto grid md:grid-cols-2 px-4 text-center md:text-left md:text-wrap  ">
+    <div className="w-full py-16 px-4">
+        <div className="md:max-w-screen-lg mx-auto grid md:grid-cols-2 text-center md:text-left md:text-wrap  ">
             <div className=" flex flex-col justify-center mb-4 md:mb-0">
                 <h1 className="md:text-3xl sm:text-2xl text-xl font-bold py-2">
                 Want tips & tricks to optimize your flow?

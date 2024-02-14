@@ -3,7 +3,7 @@ import {FaDribbbleSquare, FaFacebookSquare, FaGithubSquare, FaInstagram, FaTwitt
 const Footer = () => {
   return (
     <div className="w-full px-2 md:px-4 py-4">
-        <div className="md:max-w-screen-lg mx-auto flex flex-col md:flex-row justify-between">
+        <div className="md:max-w-screen-lg mx-auto flex flex-col md:flex-row space-y-8 md:space-y-0 justify-between">
             <div className='flex flex-col space-y-4 md:w-[30%]'>
                 <h1 className="w-full text-3xl font-bold text-[#00df9a] cursor-pointer">NAYAN.</h1>
                 <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptatem quibusdam veritatis non esse maiores! Amet inventore cupiditate veniam beatae!</p>
@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
             </div>
             <div className="md:w-[60%] flex justify-between">
-                <div>
+                <div className="mt-4">
                     <h6 className="text-medium">Solutions</h6>
                     <ul>
                         <li className="text-sm py-2 cursor-pointer hover:underline">Analytics</li>
@@ -25,7 +25,7 @@ const Footer = () => {
                         <li className="text-sm py-2 cursor-pointer hover:underline">Insights</li>
                     </ul>
                 </div>
-                <div>
+                <div className="mt-4">
                     <h6 className="text-medium">Support</h6>
                     <ul>
                         <li className="text-sm py-2 cursor-pointer hover:underline">Pricing</li>
@@ -34,7 +34,7 @@ const Footer = () => {
                         <li className="text-sm py-2 cursor-pointer hover:underline">API Status</li>
                     </ul>
                 </div>
-                <div>
+                <div className="mt-4">
                     <h6 className="text-medium">Company</h6>
                     <ul>
                         <li className="text-sm py-2 cursor-pointer hover:underline">About</li>
@@ -44,7 +44,7 @@ const Footer = () => {
                         <li className="text-sm py-2 cursor-pointer hover:underline">Career</li>
                     </ul>
                 </div>
-                <div>
+                <div className="mt-4">
                     <h6 className="text-medium">Legal</h6>
                     <ul>
                         <li className="text-sm py-2 cursor-pointer hover:underline">Claim</li>
